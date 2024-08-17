@@ -13,13 +13,30 @@
     <div class="container">
         <h1>WEATHER APP</h1>
         <img src="#" alt="weather">
-        <form action="">
+    
+            <form action="" id="form">
+                <label for="">LOCATION:</label>
+                <input type="text" id="input" placeholder="Enter a city">
+    
+                <!-- <input type="submit" onclick="getWeatherByCity()" id="mySubmit" value="Submit"> -->
+                <button type="submit">Get Weather</button>
+    
+            </form>
+            <div id="result"></div>
+
+        
+        <!-- <form action="" id="form1">
             <label for="">LOCATION:</label>
             <input type="text">
-        </form>
+
+            <input type="submit" onclick="getWeatherByCity()" id="mySubmit" value="Submit">
+
+        </form> -->
+        <!-- <button id="btn" onclick="displayResult()">Submit</button> -->
 
     </div>
-    
+
+
 </body>
 <script src="script.js"></script>
 </html>
